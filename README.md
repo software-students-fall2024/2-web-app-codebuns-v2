@@ -6,7 +6,7 @@ Our app boosts productivity by gamifying task management, offering users fun, in
 
 ## User stories
 
-[User Stories](https://github.com/software-students-fall2024/2-web-app-codebuns-v2/issues)
+[User Stories](https://github.com/software-students-fall2024/2-web-app-codebuns-v2/issues?q=is%3Aclosed+is%3Aissue+label%3A%22user+story%22+)
 
 ## Steps necessary to run the software
 
@@ -97,5 +97,5 @@ Start flask with `flask run` - this will output an address at which the app is r
 
 ## Task boards
 
-[Sprint 1 - Task Board](https://github.com/orgs/software-students-fall2024/projects/43)
-[Sprint 2 - Task Board](https://github.com/orgs/software-students-fall2024/projects/90/views/1)
+* [Sprint 1 - Task Board](https://github.com/orgs/software-students-fall2024/projects/43)
+* [Sprint 2 - Task Board](https://github.com/orgs/software-students-fall2024/projects/90/views/1)
