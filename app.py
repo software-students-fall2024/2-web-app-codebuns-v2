@@ -188,6 +188,7 @@ def create_app():
         totaltime = 0;
 
         subjectSet = set()
+        subs = []
 
         for focus_time in focus_times:
             time = (focus_time['focus_time'])
@@ -201,25 +202,12 @@ def create_app():
                 subjectArr = list(subjectSet)
 
             if len(subjectArr) > 1:
-                subjects = ", ".join(subjectArr[:-1]) + ", and " + subjectArr[-1]
+                subs = ", ".join(subjectArr[:-1]) + ", and " + subjectArr[-1]
             else:
-                subjects = subjectArr[0]
+                subs = subjectArr[0]
         
-        return render_template("congrats.html", totaltime=totaltime, subject = çsubjects)
-
-    # Pass all data to the congrats.html template
-   # return render_template("congrats.html", 
-                          # totaltime=totaltime 
-                         #  )
+        return render_template("congrats.html", totaltime=totaltime, subject = subs)
         
-        
-        
-        # break_time = request.args.get('break_time')
-        # reps_no = request.args.get('reps')
-        
-        
-    
-
     @app.route("/search", methods=["POST"])
     @login_required  
     def search():
